@@ -1,0 +1,75 @@
+#textarea{
+				padding: 8px 6px;
+				width: 60px;
+				display: inline;
+				border-radius: 100px;
+				list-style-type: none;
+				text-decoration-style: none
+		}
+#body{
+	background-image: url(KEIS/pexels.jpeg);
+}
+	li {
+			display: inline;
+			border-color: black;
+		}
+		a:hover{
+				background-color: pink;
+			}
+			li a{
+				text-align-last: right;
+				padding: 8px 6px;
+				width: 60px;
+				display: inline;
+				border-radius: 100px;
+				list-style-type: none;
+				text-decoration-style: none;
+			}
+		.ruby{
+			font-family: algerian;
+			font-size: 15px;
+			margin: left:100px;
+			color: #000000
+		}
+		.contact{
+			color: white;
+		}
+		p{
+			text-align: center;
+			color: #BF6A1A;
+		}
+		#lynn{
+			background-image: url(KEIS/keis4.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center;
+		}
+		#form{
+			text-align: center;
+		}
+		#footer{
+			text-align: center;
+			background-color: pink;
+			font-family: purisa;
+			font-size: 20px;
+		}
+	<script>
+var i=0;
+var images=[];
+var time=2000;
+//images
+images[0]='KEIS/keis1';
+images[1]='KEIS/keis1';
+images[2]='KEIS/keis1';
+function changeImg() {
+	KEIS.slide.src= images[i];
+	if(i <images.length -1){
+	1++;
+	}else{
+		1=0;
+}
+setTimeout("changeimg()",time);
+}
+window.onload = changeimg;
+</script>
+<img name="slide" width="50%">

@@ -1,0 +1,43 @@
+		.head{
+				background-image: url(..//flo.jpg);
+				background-repeat: no-repeat;
+				width: 1000px;
+				height: 500px;
+				text-align: right;
+			}
+
+		.footer{
+				text-align: center;
+				background-color: grey;
+				font-family: purisa;
+				font-size: 20px;
+				}
+	
+	.p{
+			text-align: right;
+			background-color: grey;
+			font-family: purisa;
+			font-size: 10px;
+			height: 2%
+		}
+		li{
+			text-align: center;
+			display: inline;
+			border-color: black;
+			}
+		.para{
+				text-align: center;
+			}
+		li a{
+				padding: 8px 6px;
+				width: 60px;
+				display: inline;
+				border-radius: 100px;
+				list-style-type: none;
+				text-decoration-style: none;
+			}
+	a:hover{
+			background-color: white;
+			}
+
+	
